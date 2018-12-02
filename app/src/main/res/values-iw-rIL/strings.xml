@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyMovies</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="top_rated">שוברי קופות</string>
+    <string name="upcoming">בקרוב...</string>
+    <string name="now_playing">בקולנוע</string>
+    <string name="mymovies">הסרטים שלי</string>
+    <string name="search_toast">לא נמצא סרט</string>
+    <string name="dialog_remove">האם להסיר סרט זה?</string>
+    <string name="search">חיפוש</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="title_activity_search">חיפוש</string>
+    <string name="tr_api"><![CDATA[https://api.themoviedb.org/3/movie/top_rated?api_key=5c4718b737ba79ddbc58a56d4273fab9&language=he-IW&page=1]]></string>
+    <string name="upco_api"><![CDATA[https://api.themoviedb.org/3/movie/upcoming?api_key=5c4718b737ba79ddbc58a56d4273fab9&language=he-IW&page=1]]></string>
+    <string name="np_api"><![CDATA[https://api.themoviedb.org/3/movie/now_playing?api_key=5c4718b737ba79ddbc58a56d4273fab9&language=he-IW&page=1]]></string>
+    <string name="src_api">https://api.themoviedb.org/3/search/movie?api_key=5c4718b737ba79ddbc58a56d4273fab9&amp;language=he-IL&amp;query=</string>
+    <string name="overview">תקציר</string>
+    <string name="title">שם הסרט</string>
+    <string name="add_act_title">הוסף לרשימת הסרטים</string>
+    <string name="change_language">שינוי שפה</string>
+    <string name="english">English</string>
+    <string name="hebrew">Hebrew</string>
+    <string name="title_activity_add_">הוספה לסרטים שלי</string>
+    <string name="title_activity_search__acticity">חיפוש סרטים</string>
+    <string name="dialog_add">להוסיף לסרטים שלי?</string>
+
+</resources>

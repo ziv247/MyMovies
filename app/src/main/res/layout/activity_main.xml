@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example1.ziv24.mymovies1.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_src"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="74dp"
+        android:visibility="gone"
+
+        app:backgroundTint="@color/cardview_dark_background"
+        app:srcCompat="@drawable/ic_search_black_36dp"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_kb"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="148dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:clickable="true"
+        android:visibility="gone"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:srcCompat="@drawable/ic_keyboard_black_36dp" />
+
+</android.support.design.widget.CoordinatorLayout>

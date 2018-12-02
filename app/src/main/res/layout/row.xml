@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="5dp"
+    android:background="@color/coloradd"
+    android:gravity="center"
+    android:shadowColor="@android:color/background_light"
+    android:shadowRadius="50"
+    android:text="kjhkjghghjgjhghjgjhg"
+    android:textColor="@color/cardview_dark_background"
+    android:textSize="30sp">
+
+</TextView>

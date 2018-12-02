@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example1.ziv24.mymovies1.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/change_language"
+        app:showAsAction="never">
+        <menu >
+            <item
+                android:id="@+id/action_en"
+                android:orderInCategory="100"
+                android:title="@string/english"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_he"
+                android:orderInCategory="100"
+                android:title="@string/hebrew"
+                app:showAsAction="never" />
+
+
+
+
+        </menu>
+    </item>
+</menu>
